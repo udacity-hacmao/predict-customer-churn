@@ -1,7 +1,20 @@
+'''
+This is the Python Test for the churn_library.py module.
+
+This module will be used to test
+    1. import_data
+    2. peform_eda
+    3. encode_data
+    4. perform_feature_engineering
+    5. train_test_model
+
+Author: HiepNT25@fsoft.com.vn
+Date: 20/02/2023
+'''
 import logging
 from os import path
-import churn_library as cls
 import numpy as np
+import churn_library as cls
 
 logging.basicConfig(
     filename='./logs/churn_library.log',

@@ -1,3 +1,9 @@
+'''
+This is the Python module contain function to identify credit card customers that are most likely to churn.
+
+Author: HiepNT25@fsoft.com.vn
+Date: 20/02/2023
+'''
 import os
 import joblib
 import numpy as np
